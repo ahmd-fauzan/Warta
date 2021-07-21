@@ -7,8 +7,6 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.ppb.warta.models.Berita;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 
@@ -30,12 +28,12 @@ public class WebActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.web_view);
+        setContentView(R.layout.activity_web);
 
         webView=findViewById(R.id.web_view);
 
         Intent intent=getIntent();
-        String webSite=intent.getStringExtra("links");
+        String webSite=intent.getStringExtra("Web");
 
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl(webSite);

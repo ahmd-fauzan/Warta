@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="countries">
+        <item>Indonesia</item>
+        <item>Amerika Serikat</item>
+        <item>Singapura</item>
+        <item>Jepang</item>
+        <item>Rusia</item>
+    </string-array>
+
+    <string-array name="countries_values">
+        <item>id</item>
+        <item>us</item>
+        <item>sg</item>
+        <item>jp</item>
+        <item>ru</item>
+    </string-array>
 </resources>
